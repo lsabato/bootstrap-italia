@@ -8,9 +8,9 @@ primary lighter: #F0F8F5;
 */
 
 // primary #007A52
-$primary-h: 160;
-$primary-s: 100;
-$primary-b: 48;
+$primary-h: 160 !default;
+$primary-s: 100 !default;
+$primary-b: 48 !default;
 
 //buttons custom vars
 
@@ -23,18 +23,18 @@ $primary-b: 48;
 @import 'utilities/colors_vars';
 
 // color custom variables
-$color-text-primary-hover: hsl(160, 100%, 19%); // color-seagreen-19
-$color-text-primary-active: hsl(160, 100%, 14%); // color-seagreen-14
-$color-background-primary-lighter: hsl(160, 40, 92%); // color-seagreen-92
-$btn-comuni-primary-hover: #fff;
+$color-text-primary-hover: hsl(160, 100%, 19%) !default; // color-seagreen-19
+$color-text-primary-active: hsl(160, 100%, 14%) !default; // color-seagreen-14
+$color-background-primary-lighter: hsl(160, 40, 92%) !default; // color-seagreen-92
+$btn-comuni-primary-hover: #fff !default;
 $header-center-bg-color: $primary;
-$header-slim-bg-color: #00402b;
+$header-slim-bg-color: #00402b !default;
 $section-header-background-color: $primary-a10;
-$section-user-header-background-color: #f0f8f5;
+$section-user-header-background-color: #f0f8f5 !default;
 $card-link-color: $primary;
-$card-comuni-bg-dark: #2c2c2c;
-$footer-comuni-bg-color: #202a2e;
-$link-list-comuni-color: #455a64;
+$card-comuni-bg-dark: #2c2c2c !default;
+$footer-comuni-bg-color: #202a2e !default;
+$link-list-comuni-color: #455a64 !default;
 $link-list-hover-color: $primary;
 
 //variables
